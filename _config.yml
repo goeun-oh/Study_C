@@ -105,4 +105,9 @@ deploy:
   repo: https://github.com/goeun-oh/goeun-oh.github.io.git
   branch: gh-pages
 
+portfolio:
+  title: 나의 프로젝트
+  subtitle: 내가 만든 것들
+  data_source: projects
 
+theme_config: _config.keep.yml

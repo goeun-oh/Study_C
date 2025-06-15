@@ -1,14 +1,3 @@
-- title: FPGA 탁구 게임
-  description: I2C 기반 VGA 공 궤적 구현
-  image: /images/projects/pong_fpga.png
-  link: /projects/pong/
-
-- title: UART + FIFO 회로 설계
-  description: UART 통신 + APB기반 FIFO 설계
-  image: /images/projects/uart_fifo.png
-  link: /projects/uart_fifo/
-
-- title: RISC-V CPU 설계
-  description: RV32I CPU + 메모리 매핑 연동
-  image: /images/projects/riscv_cpu.png
-  link: /projects/riscv_cpu/
+- title: 테스트 프로젝트
+  description: 이건 정말 떠야 해요
+  link: /test
