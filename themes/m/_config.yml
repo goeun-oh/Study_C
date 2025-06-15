@@ -110,3 +110,10 @@ vendors:
   prism_theme: "/css/prism-m.css"
   prism_line_numbers: "https://cdn.jsdelivr.net/gh/PrismJS/prism/plugins/line-numbers/prism-line-numbers.css"
   busuanzi_js: "https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" # 2.3
+
+
+portfolio:
+  enable: true
+  title: 포트폴리오
+  subtitle: 프로젝트 모음입니다.
+  data_source: projects

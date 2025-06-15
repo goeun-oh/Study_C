@@ -1,0 +1,70 @@
+<!-- Hero 영역 -->
+<div class="mdui-container-fluid mdui-color-theme mdui-p-y-5 mdui-text-center">
+  <h1 class="mdui-typo-display-2 mdui-text-color-white">안녕하세요, 고은 오입니다</h1>
+  <p class="mdui-typo-title mdui-text-color-white">디지털 회로 설계 · 임베디드 시스템 · FPGA Enthusiast</p>
+  <a class="mdui-btn mdui-btn-raised mdui-color-white mdui-text-color-theme-accent mdui-m-t-2" href="#about">더 알아보기 ↓</a>
+</div>
+
+<!-- About Me -->
+<div id="about" class="mdui-container mdui-p-y-4">
+  <div class="mdui-card mdui-p-a-3 mdui-shadow-1">
+    <div class="mdui-typo">
+      <h2>🙋‍♂️ About Me</h2>
+      <p>전자공학과에 재학 중이며, Verilog 기반 디지털 회로, UART/I2C, FPGA 설계 및 하드웨어 검증에 열정을 갖고 있습니다.</p>
+    </div>
+
+    <div class="mdui-m-t-2">
+      <h4>🛠️ Skills</h4>
+      <div class="mdui-chip">Verilog</div>
+      <div class="mdui-chip">SystemVerilog</div>
+      <div class="mdui-chip">Vivado</div>
+      <div class="mdui-chip">STM32 C</div>
+      <div class="mdui-chip">Python</div>
+      <div class="mdui-chip">GitHub</div>
+    </div>
+  </div>
+</div>
+
+<!-- Projects -->
+<div class="mdui-container mdui-p-y-4">
+  <h2 class="mdui-text-color-theme">📂 Projects</h2>
+  <div class="project-grid">
+    <% site.data.projects.forEach(function(project) { %>
+      <div class="project-card mdui-card mdui-shadow-1">
+        <img src="<%= url_for(project.image) %>" alt="<%= project.title %> 이미지">
+        <div class="project-info mdui-p-a-2">
+          <h4><%= project.title %></h4>
+          <p><%= project.description %></p>
+          <a href="<%= url_for(project.link) %>" class="mdui-btn mdui-color-theme-accent mdui-ripple">자세히 보기</a>
+        </div>
+      </div>
+    <% }); %>
+  </div>
+</div>
+
+<!-- Contact -->
+<div class="mdui-container mdui-p-y-5 mdui-text-center">
+  <h3>📫 Contact</h3>
+  <p>이메일: <a href="mailto:goeun@example.com">goeun@example.com</a></p>
+  <a class="mdui-btn mdui-color-theme mdui-ripple mdui-m-t-2" href="https://github.com/goeun-oh">GitHub 보기</a>
+  <a class="mdui-btn mdui-color-pink mdui-ripple mdui-m-t-2" href="/resume.pdf">이력서 다운로드</a>
+</div>
+
+<style>
+.project-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: flex-start;
+}
+.project-card {
+  width: 320px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+.project-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+</style>

@@ -1,0 +1,20 @@
+# theme: keep 설정 파일 예시
+
+menu:
+  Home: /
+  Archives: /archives/
+  Projects: /projects/
+  About: /about/
+
+
+
+# 소셜 링크
+social:
+  github: https://github.com/goeun-oh
+  email: mailto:goeun@example.com
+
+portfolio:
+  enable: true
+  title: 포트폴리오
+  subtitle: 프로젝트 모음입니다.
+  data_source: projects  # 🔺 이거 꼭 필요합니다!
