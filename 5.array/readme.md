@@ -9,4 +9,4 @@
 ![]({68263D2A-D34E-41E1-95F5-0A13FEBFBEFD}.png)
 
 
-`'\000'`은 null 값을 의미
+`'\000'`은 null 값을 의미 (binary 0 은 null문자)
