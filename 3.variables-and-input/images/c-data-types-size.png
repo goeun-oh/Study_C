@@ -1,0 +1,12 @@
+# Placeholder for C Data Types Size Comparison Image
+# This file should be replaced with an actual PNG image showing:
+# - char: 1 byte
+# - int: 4 bytes  
+# - float: 4 bytes
+# - double: 8 bytes
+# - Visual representation of memory allocation differences
+
+# To add the actual image:
+# 1. Create or find a suitable diagram
+# 2. Replace this placeholder with the binary image data
+# 3. Ensure the image clearly shows the size differences between data types
