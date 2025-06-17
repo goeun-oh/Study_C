@@ -52,3 +52,10 @@ pa가 저장한 주소의 자료형은 `int` 이다.
 
 
 주소는 8byte -> ㅏ따라서 포인트 변수의 크기는 8 byte(64bit computer)
+
+
+--- 
+
+[Swap 함수 예제](./pointer3.c) 
+
+![](image.png)
