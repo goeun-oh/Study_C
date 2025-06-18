@@ -37,3 +37,6 @@ padding 안하고 연속적으로 붙이게 되면? -> 속도가 느려진다. -
 ### 열거형 (eunm)
 열거형으로 자료형 구성하는거
 `eunum season {SPRING, SUMMER, FALL, WINTER};`
+
+
+### 전처리 지시자의 의미
